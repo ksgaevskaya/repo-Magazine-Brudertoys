@@ -89,6 +89,14 @@ function addHeaderAndFooter() {
                             </div>
                         </div>
                         </div>`;
+
+	dialog.innerHTML = `<div id="win" class="win" style="display: none">
+                            <button class="close_window"><i class="fas fa-times"></i></button>
+                            <div class="dialog_text"></div>
+                            <input class="input_dialog" type="text" required>
+                            <button class="send"><i class="fas fa-arrow-up"></i></button>
+                        </div>
+                        <button class="show"><i class="fas fa-comments"></i></button>`
 }
 addHeaderAndFooter();
 

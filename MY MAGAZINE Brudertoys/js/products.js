@@ -23,7 +23,7 @@ const catalogProduct = [
   },
   {
     id: "2",
-    name: "Трактор Massey Ferguson ",
+    name: "Трактор Massey F ",
     price: ((80 / 100) * 80).toFixed(0),
     depth: "49 см.",
     width: "19 см.",
