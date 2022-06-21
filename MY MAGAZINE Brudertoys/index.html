@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav class="top_ponnel"></nav>
+      <header></header>
+      <nav class="nav_bar"></nav>
+      <section class="gallery" id="gallery">
+        <div class="photos">
+          <img src="./images/1.jpg" />
+          <img src="./images/2.jpg" />
+          <img src="./images/3.jpg" />
+        </div>
+        <div class="buttons">
+          <i id="prev" class="fas fa-chevron-left"></i>
+          <div class="circles" id="div_circles">
+            <i id="0" name="1" class="fas fa-circle"></i>
+            <i id="1" name="2" class="fas fa-circle"></i>
+            <i id="2" name="3" class="fas fa-circle"></i>
+          </div>
+          <i id="next" class="fas fa-chevron-right"></i>
+        </div>
+      </section>
+      <section class="block_stock" id="stock">
+        <h2>Наши скидки</h2>
+        <ul id="block_stock" class="content_discount"></ul>
+        <div class="buttons">
+          <i id="left" class="fas fa-chevron-left"></i>
+          <i id="right" class="fas fa-chevron-right"></i>
+        </div>
+      </section>
+
+      <section class="block_information">
+        <div class="center2">
+          <h2>Информация</h2>
+          <div class="content">
+            <div class="item">
+              <a href="#"><img src="./img/in_1.png" />ОПЛАТА</a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./img/in_2.png" />ОТЗЫВЫ</a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./img/in_3.png" />О НАС</a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./img/in_4.png" />ДОСТАВКА</a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./img/in_5.png" />ВОЗВРАТ</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="dialog"></div>
+      <footer></footer>
+    </div>
+    <script src="./js/head_footer.js"></script>
+    <script src="./js/cardStore.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/createOneProduct.js"></script>
+    <script src="./js/discountCarousel.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/miniCart.js"></script>
+  </body>
+</html>
